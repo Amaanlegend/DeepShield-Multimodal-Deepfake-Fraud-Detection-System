@@ -73,9 +73,9 @@ Audio: wav, mp3
 Live Video URLs
 
 Results
-Confidence score indicating likelihood of deepfake (0 to 1 scale).
-Highlighted areas of suspicion in the media (e.g., facial regions like mouth or eyes).
-Fraud prevention report, including biometric discrepancies and metadata integrity.
+1.Confidence score indicating likelihood of deepfake (0 to 1 scale).
+2.Highlighted areas of suspicion in the media (e.g., facial regions like mouth or eyes).
+3.Fraud prevention report, including biometric discrepancies and metadata integrity.
 
 Security & Privacy
 End-to-End Encryption: All media, results, and logs are encrypted.
@@ -85,11 +85,11 @@ Contributing
 We welcome contributions from the community. To contribute:
 
 Fork the repository.
-Create a new feature branch (git checkout -b feature/YourFeature).
-Commit your changes (git commit -m "Add new feature").
-Push to the branch (git push origin feature/YourFeature).
-Create a pull request.
-Please ensure your changes are well-tested and documented.
+1. Create a new feature branch (git checkout -b feature/YourFeature).
+2. Commit your changes (git commit -m "Add new feature").
+3. Push to the branch (git push origin feature/YourFeature).
+4. Create a pull request.
+5. Please ensure your changes are well-tested and documented.
 
 Contact
 For any inquiries or issues, please open an issue on the GitHub repository or contact us directly at amaantarique123@gmail.com.
@@ -101,6 +101,5 @@ Real-Time Fraud Prevention: Automate transaction delays if deepfake fraud is det
 
 DeepShield provides NatWest with a comprehensive fraud detection tool that is secure, scalable, and easy to integrate into existing systems. Its multimodal approach ensures robust protection against evolving fraud threats.
 
-
-
+👥 Contributors: • Amaan Tarique (Mathematics and Computing, DTU) • Siddharth Sasmal (Information Technology, DTU) • Yash Kumar (Mechanical Engineering, DTU)
 
