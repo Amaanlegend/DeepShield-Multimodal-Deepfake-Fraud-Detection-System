@@ -1,21 +1,33 @@
+# blockchain_logger.py
+
 import hashlib
+import json
 
-def log_to_blockchain(media_file, deepfake_results, biometric_results, confidence_score):
+def hash_result(result_data):
     """
-    Logs the results of the analysis to a blockchain ledger.
-    """
-    log_data = {
-        "media_file": media_file,
-        "deepfake_results": deepfake_results,
-        "biometric_results": biometric_results,
-        "confidence_score": confidence_score
-    }
+    Hashes the detection result for immutability.
     
-    # Create a hash of the log data
-    data_hash = hashlib.sha256(str(log_data).encode()).hexdigest()
+    Parameters:
+    result_data (dict): Result data to be hashed (includes deepfake detection result).
+    
+    Returns:
+    str: The resulting hash of the data.
+    """
+    result_string = json.dumps(result_data, sort_keys=True).encode()
+    result_hash = hashlib.sha256(result_string).hexdigest()
+    return result_hash
 
-    # Append the data hash to the blockchain (simplified for prototype)
-    with open("blockchain_ledger.txt", "a") as ledger:
-        ledger.write(f"{data_hash}\n")
-
-    print("Analysis logged to blockchain successfully.")
+def log_to_blockchain(result_data):
+    """
+    Logs the detection result onto the blockchain for transparency.
+    
+    Parameters:
+    result_data (dict): Detection result data.
+    
+    Returns:
+    str: Blockchain transaction hash.
+    """
+    # For demonstration, we will return a simulated blockchain hash
+    transaction_hash = hash_result(result_data)
+    print(f"Result logged on blockchain with hash: {transaction_hash}")
+    return transaction_hash
