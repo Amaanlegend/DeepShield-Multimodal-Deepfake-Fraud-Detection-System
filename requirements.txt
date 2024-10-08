@@ -1,0 +1,40 @@
+# Machine Learning and Deep Learning Libraries
+tensorflow==2.8.0          # For building and training deepfake detection models
+numpy==1.21.6              # Numerical computing package
+scikit-learn==1.0.2        # For additional machine learning algorithms and evaluation metrics
+pandas==1.3.5              # Data manipulation and analysis
+
+# Audio Processing Libraries
+librosa==0.8.1             # Audio feature extraction and analysis
+soundfile==0.10.3          # Read and write sound files
+
+# Video Processing Libraries
+opencv-python==4.5.5       # Video frame extraction and pre-processing
+moviepy==1.0.3             # Video processing and manipulation
+
+# Blockchain Integration
+web3==5.27.0               # Interfacing with blockchain for logging
+
+# Cloud and AWS Services
+boto3==1.21.24             # AWS SDK for Python, used for S3 and Lambda interactions
+
+# Logging and Monitoring
+loguru==0.5.3              # Advanced logging system
+
+# Model Evaluation and Metrics
+matplotlib==3.5.1          # Plotting library for visualizing model performance
+seaborn==0.11.2            # Statistical data visualization
+scipy==1.7.3               # Used for scientific and technical computing
+plotly==5.5.0              # Interactive plotting and dashboard creation
+
+# Deployment and Infrastructure (AWS and Terraform)
+awscli==1.22.85            # AWS CLI tools
+python-dotenv==0.19.2      # For loading environment variables
+terraform==0.15.5          # For deploying infrastructure to AWS
+
+# Testing Libraries
+pytest==7.0.1              # Testing framework
+pytest-cov==3.0.0          # Coverage plugin for pytest
+
+# Miscellaneous Utilities
+tqdm==4.64.0               # Progress bar for loops
