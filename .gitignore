@@ -1,13 +1,32 @@
-# Ignore Python cache files
+# Ignore Python bytecode files
 __pycache__/
 *.py[cod]
+*.so
+*.pyd
 
-# Ignore virtual environment
+# Ignore virtual environment folder
 venv/
-.env
+env/
+.venv/
 
-# Ignore logs
+# Ignore system files
+.DS_Store
+*.swp
+
+# Ignore log files
 *.log
 
-# AWS credentials
-.aws/
+# Ignore data files
+*.csv
+*.h5
+
+# Ignore compiled models
+*.h5
+*.ckpt
+
+# Ignore AWS lambda zip packages
+lambda_function.zip
+
+# Ignore Terraform state files
+terraform.tfstate
+terraform.tfstate.backup
