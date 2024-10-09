@@ -60,5 +60,11 @@ Blockchain-Backed Logging:
 
 Every detection is immutably logged on a blockchain for secure, verifiable audit trails.
 
+Evaluation
+DeepShield provides robust performance evaluation using metrics such as Accuracy, Precision, Recall, and F1-score. 
+
+Acknowledgments
+Special thanks to the open-source community for their contributions to the machine learning, blockchain, and cloud computing libraries that made DeepShield possible.
+
 👥 Contributors: • Amaan Tarique (Mathematics and Computing, DTU) • Siddharth Sasmal (Information Technology, DTU) • Yash Kumar (Mechanical Engineering, DTU)
 
