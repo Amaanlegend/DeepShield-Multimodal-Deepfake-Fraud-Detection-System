@@ -1,0 +1,27 @@
+
+---
+
+### **requirements.txt**
+```txt
+# Machine Learning and Data Processing
+tensorflow==2.8.0
+numpy==1.21.6
+scikit-learn==1.0.2
+pandas==1.3.5
+
+# Audio Processing
+librosa==0.8.1
+soundfile==0.10.3
+
+# Video Processing
+moviepy==1.0.3
+opencv-python==4.5.5
+
+# Blockchain
+web3==5.27.0
+
+# AWS and Cloud Tools
+boto3==1.21.24
+
+# Other Utilities
+pytest==7.0.1
