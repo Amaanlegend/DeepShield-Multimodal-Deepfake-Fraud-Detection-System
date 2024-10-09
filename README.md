@@ -10,29 +10,29 @@ Features
 
 Multimodal Deepfake Detection:
 
-CNN + LSTM model for deepfake detection in video streams.
-Audio analysis to detect speech pattern anomalies.
-Facial texture anomaly detection, analyzing skin texture and lighting irregularities.
-Facial landmark analysis to spot inconsistencies in muscle movements and facial features.
+• CNN + LSTM model for deepfake detection in video streams.
+• Audio analysis to detect speech pattern anomalies.
+• Facial texture anomaly detection, analyzing skin texture and lighting irregularities.
+• Facial landmark analysis to spot inconsistencies in muscle movements and facial features.
 
 Biometric Cross-Verification:
 
-Facial & Voice Matching: Ensures consistency between voice and facial data with real-time cross-checking against pre-existing customer databases.
-Real-Time Verification: Ideal for sensitive use cases like KYC (Know Your Customer) verification in financial services or fraud prevention.
+• Facial & Voice Matching: Ensures consistency between voice and facial data with real-time cross-checking against pre-existing customer databases.
+• Real-Time Verification: Ideal for sensitive use cases like KYC (Know Your Customer) verification in financial services or fraud prevention.
 
 Blockchain Integration:
 
-Immutable Audit Log: Every deepfake detection and fraud prevention event is securely recorded on a blockchain ledger for transparency and legal reviews.
-Tamper Detection: Media file metadata (timestamps, geolocation, and device type) is checked for inconsistencies.
+• Immutable Audit Log: Every deepfake detection and fraud prevention event is securely recorded on a blockchain ledger for transparency and legal reviews.
+• Tamper Detection: Media file metadata (timestamps, geolocation, and device type) is checked for inconsistencies.
 
 Cloud-Backed Processing:
 
-AWS Lambda & S3: DeepShield leverages AWS Lambda for processing and AWS S3 for storage, ensuring scalability and flexibility.
+• AWS Lambda & S3: DeepShield leverages AWS Lambda for processing and AWS S3 for storage, ensuring scalability and flexibility.
 
 Evaluation Metrics:
 
-Standard metrics include Accuracy, Precision, Recall, and F1-Score.
-Performance comparisons with traditional classifiers such as SVM and Random Forest are provided.
+• Standard metrics include Accuracy, Precision, Recall, and F1-Score.
+• Performance comparisons with traditional classifiers such as SVM and Random Forest are provided.
 
 System Architecture
 
@@ -43,20 +43,20 @@ Optional biometric inputs (facial images, voice recordings) for cross-verificati
 
 Core Modules
 
-Pre-Processing:
+• Pre-Processing:
 
 Metadata analysis for tamper detection.
 Video stabilization and enhancement for optimal feature extraction.
 
-Deepfake Detection:
+• Deepfake Detection:
 
 Deep learning models (trained on datasets like DFDC and FaceForensics++) to detect texture anomalies, facial landmark inconsistencies, and mismatches in audio-visual synchronization.
 
-Multimodal Fraud Detection:
+• Multimodal Fraud Detection:
 
 Uses biometric cross-verification, along with contextual analysis based on user behavior patterns, geolocation, and recent transactions.
 
-Blockchain-Backed Logging:
+• Blockchain-Backed Logging:
 
 Every detection is immutably logged on a blockchain for secure, verifiable audit trails.
 
@@ -66,5 +66,7 @@ DeepShield provides robust performance evaluation using metrics such as Accuracy
 Acknowledgments
 Special thanks to the open-source community for their contributions to the machine learning, blockchain, and cloud computing libraries that made DeepShield possible.
 
-👥 Contributors: • Amaan Tarique (Mathematics and Computing, DTU) • Siddharth Sasmal (Information Technology, DTU) • Yash Kumar (Mechanical Engineering, DTU)
+👥 Contributors:  1. Amaan Tarique (Mathematics and Computing, DTU) 
+                  2. Siddharth Sasmal (Information Technology, DTU) 
+                  3. Yash Kumar (Mechanical Engineering, DTU)
 
