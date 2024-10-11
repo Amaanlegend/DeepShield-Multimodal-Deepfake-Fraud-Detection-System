@@ -4,8 +4,6 @@ Overview
 
 DeepShield is an advanced deepfake detection system developed to identify manipulated media by analyzing audio, video, and images using cutting-edge machine learning techniques. The system combines CNN + LSTM models, blockchain technology for secure logging, and cloud-based services to create a scalable and robust solution that ensures real-time fraud prevention
 
-DeepShield provides NatWest with a comprehensive fraud detection tool that is secure, scalable, and easy to integrate into existing systems. Its multimodal approach ensainst evolving fraud threats.ures robust protection ag
-
 Features
 
 Multimodal Deepfake Detection:
