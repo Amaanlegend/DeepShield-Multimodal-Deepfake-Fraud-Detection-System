@@ -64,7 +64,3 @@ DeepShield provides robust performance evaluation using metrics such as Accuracy
 Acknowledgments
 Special thanks to the open-source community for their contributions to the machine learning, blockchain, and cloud computing libraries that made DeepShield possible.
 
-👥 Contributors:  1. Amaan Tarique (Mathematics and Computing, DTU) 
-                  2. Siddharth Sasmal (Information Technology, DTU) 
-                  3. Yash Kumar (Mechanical Engineering, DTU)
-
